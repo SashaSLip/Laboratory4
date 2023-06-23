@@ -1,0 +1,456 @@
+body {
+    background-color:  rgb(255, 249, 235);
+    margin: 0;
+}
+
+.product-item{
+    border: 2px solid rgb(204, 203, 203);
+    margin: 20px;
+    padding: 20px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 470px;
+    white-space: normal;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 250px;
+  flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.purchase-button{
+	inset: 0px;
+	margin: auto;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	background: rgb(245, 165, 25);
+	height: 32px;
+	width: 68px;
+	border-radius: 5px;
+	border: 1px solid rgb(255, 217, 26);
+}
+
+.purchase-button:hover{
+  box-shadow: rgb(222, 147, 18) 0px 2px 7px 0px;
+}
+
+h2{
+    color:rgb(245, 165, 25)
+}
+
+.pizza-type{
+    color: rgb(182, 182, 182);
+    font-size: 12px;
+}
+
+.image{    
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    transition: width 0.3s ease;
+}
+
+.image:hover{
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.nova{
+    background-color: rgb(245, 10, 10);
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 23px;
+    text-align: center;
+    position: inherit;
+    top: -70px;
+    right: -220px;
+    margin: 0px;
+}
+
+.popularna{
+    background-color: rgb(65, 195, 10);
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    position: inherit;
+    top: -70px;
+    right: -220px;
+    margin: 0px;
+}
+
+.counter{
+    background: rgb(245, 165, 25);
+    border-radius: 100px;
+    border: 0;
+    margin: 0px;
+    padding: 0 px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fon{
+	inset: 0px;
+	margin: auto;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	background: rgb(245, 165, 25);
+	height: 38px;
+	width: 129px;
+	border-radius: 5px;
+	border: 1px solid rgb(231, 196, 24);
+	box-shadow: rgb(198, 131, 16) 0px 2px 7px 0px;
+}
+
+.bezfon{
+	inset: 0px;
+	margin: auto;
+	font-weight: 500;
+	color: rgb(245, 165, 25);
+	background: rgb(255, 255, 255);
+	height: 38px;
+	width: 129px;
+	border-radius: 5px;
+	border: 1px solid rgb(255, 255, 255);
+	box-shadow: rgb(220, 219, 219) 0px 2px 7px 0px;
+}
+
+.bezfon:hover{
+  inset: 0px;
+  margin: auto;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background: rgb(245, 165, 25);
+  height: 38px;
+  width: 129px;
+  border-radius: 5px;
+  border: 1px solid rgb(231, 196, 24);
+  box-shadow: rgb(198, 131, 16) 0px 2px 7px 0px;
+}
+
+.line-1 {
+    width: 870px;
+    height: 1px;
+    background:  rgba(255, 255, 255, 0.503);
+    margin-left: 9%;
+  }
+
+  .number, .time, .dostavka, .entrance {
+    display: inline;
+  }
+
+  .number{
+    margin-left: 9%;
+    color: rgba(255, 255, 255, 0.503);
+  }
+
+  .time{
+    margin-left: 2%;
+    color: rgba(255, 255, 255, 0.503);
+  }
+
+  .dostavka{
+    margin-left: 2%;
+    color: rgba(255, 255, 255, 0.503);
+  }
+
+  .entrance{
+    inset: 0px;
+	margin-left: 10%;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	background: rgb(245, 165, 25);
+	height: 25px;
+	width: 58px;
+	border-radius: 5px;
+	border: 1px solid rgb(231, 196, 24);
+  }
+
+  .entrance:hover{
+    box-shadow: rgb(222, 147, 18) 0px 2px 7px 0px;
+  }
+
+  .pizza{
+    margin-left: 9%;
+    color: rgb(255, 255, 255);
+  }
+
+  header{
+    background-color: rgba(0, 0, 0, 0.8);;
+    height: 105px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+  }
+
+  .badge1{
+    width: 90px;
+    height: 120px;
+    background-color:rgb(245, 165, 25);
+    color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    position: fixed;
+    margin-left: 1%;
+    top: 0%;
+    text-align: center;
+   }
+
+   .badge2{
+    width: 90px;
+    height: 80px;
+    background-color:rgb(245, 165, 25);
+    color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    position: fixed;
+    margin-left: 1%;
+    bottom: 0%;
+    text-align: center;
+   }
+
+   .badge2:hover{
+    height: 150px;
+    transition: height 0.3s ease;
+}
+
+   .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+  }
+
+  ul{
+    padding:0px;
+}  
+
+.buybucket{
+    position: fixed;
+    top:0;
+    right:0;
+    min-height: 100%;
+    border: 2px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    background-color: white;
+    width:max-content;
+    height: max-content;
+    z-index: 999;
+}  
+
+.buy-img{
+  width:150px;
+  position:absolute;
+  left:250px;
+  margin: 0;
+}
+
+h3 {
+    color: rgb(245, 165, 25);
+    font-weight: bold;
+    
+}
+.buy-zakaz {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.zamovlennia{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pgray {
+    color:gray;
+    display: inline-block;
+    margin-left:10px;
+}
+
+.buy-list {
+    background-color: rgb(242, 242, 242);
+    border-bottom: 2px solid rgb(224, 222, 222);
+    padding: 10px;
+}
+
+.buy-counter{
+    width:10px;
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(242, 242, 242);;
+    border:0px;
+    vertical-align: middle;
+}
+.stoimost {
+    font-weight: bold;
+    display: block;
+    display: inline-block;
+    padding-right: 20px;
+    
+
+}
+.ves{
+    display: inline-block;
+    margin-right:10px;
+   
+}
+.ves p {
+    display: inline-block;
+} 
+
+.minus{
+    background: rgb(247, 69, 69); 
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    box-shadow: rgb(211, 46, 46) 0px -3px 0px 0px inset;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.minus:hover{
+    background: rgb(225, 50, 50);
+    box-shadow: rgb(247, 69, 69) 0px 2px 0px 0px inset;
+    
+}
+
+.plus{
+    display: inline-block;
+    background: rgb(50, 234, 102); 
+    color: white;
+    border-radius: 100px;
+    box-shadow: rgb(31, 199, 50) 0px -3px 0px 0px inset;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.plus:hover{
+    background: rgb(32, 205, 87);
+    box-shadow: rgb(50, 234, 102) 0px 2px 0px 0px inset;
+}
+.cross{
+    display: inline-block;
+    background: rgb(255, 255, 255); 
+    color: rgb(255, 187, 0);
+    border-radius: 100%;
+    box-shadow: rgb(210, 209, 209) 0px -2px 0px 0px inset;
+    width: 33px;
+    height: 33px;
+    border: 0;
+    font-size: 18px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.cross:hover{
+  inset: 0px;
+  margin: auto;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background: rgb(245, 165, 25);
+  height: 33px;
+  width: 33px;
+  border-radius: 100%px;
+  border: 1px solid rgb(231, 196, 24);
+  box-shadow: rgb(198, 131, 16) 0px 2px 7px 0px;
+}
+
+.buybutton {
+  margin-left: 10%;
+  background: rgb(245, 165, 25);
+  color:white;
+  font-weight: bold;
+  height: 38px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid rgb(231, 196, 24);
+  display: block;
+}
+
+.buybutton:hover{
+  box-shadow: rgb(222, 147, 18) 0px 2px 7px 0px;
+}
+
+.stoimost {
+  font-weight: bold;
+  display: inline-block;
+  padding-right: 20px;
+  margin-left: 10%;
+}
+
+.list{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 15%;
+}
+
+#plp{
+    margin-top: 105px;
+}
+
+footer{
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(220, 219, 219) 0px 2px 7px 0px;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .pizza-small{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 12%;
+  }
+
+  .pizza-large{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .pizza-price{
+    padding: 0; 
+    margin: 0; 
+    font-size: 30px;
+    font-weight: bolt;
+  }
+
+  .pizza-currency{
+    padding: 0; 
+    margin: 0; 
+  }
+
+  @media (max-width: 780px) {
+    .product-item {
+      float: none;
+      width: 60%;
+      margin-left:0px;
+      padding: 0;
+    }
+    .list{
+      width: 60%;
+    }
+  }
+  

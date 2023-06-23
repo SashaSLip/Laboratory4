@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Create questionnaire">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Task</title>
+    </head>
+    <body>
+
+        <div class="buybucket"> 
+            <ul>
+                <li class="buy-zakaz"><p class="zamovlennia">Замовлення</p>
+                    <input class = "counter" placeholder="5" readonly>
+                    <p class="pgray">Очистити замовлення</p>
+                </li>
+                <li class="buy-list">
+                    <img class="buy-img" src="img/pizza_2.jpg">
+                    <h3>BBQ (Мала)</h3>
+                    <span class="ves"><p><img src="img/size-icon.svg"> 30</p> <p><img src="img/weight.svg"> 460</p></span>
+                <div class="tsena">
+                    <p class="stoimost">556</p>
+                    <button class="plus">+</button>
+                    <input class="buy-counter" placeholder="4" >
+                    <button class="minus">-</button>
+                    <button class="cross">x</button>
+                </div>
+                </li>
+                <li class="buy-list">
+                    <img class="buy-img" src="img/pizza_4.jpg">
+                    <h3>Россо Густо (Мала)</h3>
+                    <span class="ves"><p><img src="img/size-icon.svg"> 30</p> <p><img src="img/weight.svg"> 400</p></span>
+                <div class="tsena">
+                    <p class="stoimost">189</p>
+                    <button class="plus">+</button>
+                    <input class="buy-counter" placeholder="1" >
+                    <button class="minus">-</button>
+                    <button class="cross">x</button>
+                </div>
+                </li>
+                <li class="buy-list">
+                    <img class="buy-img" src="img/pizza_7.jpg">
+                    <h3>Міксовий поло (Велика)</h3>
+                    <span class="ves"><p><img src="img/size-icon.svg"> 40</p> <p><img src="img/weight.svg"> 780</p></span>
+                <div class="tsena">
+                    <p class="stoimost">179 </p>
+                    <button class="plus">+</button>
+                    <input class="buy-counter" placeholder="1" >
+                    <button class="minus">-</button>
+                    <button class="cross">x</button>
+                </div>
+                </li>
+                <li class="buy">
+                    <p class="stoimost">Сума замовлення</p>
+                    <p class="stoimost">924 грн</p>
+                    <button class="buybutton">Замовити</button>
+                </div>
+                </li>
+            </ul>
+        </div>
+   
+        <div class = "main">
+        <header>
+            <h2 class = "number">(044) 222 5 222</h2>
+            <span class = "time">24 години/7 днів на тиждень</span>
+            <h3 class = "dostavka">Безкоштовна доставка піци</h3>
+            <button class = "entrance">Ввійти</button>
+            <br></br>
+            <div class="line-1"></div>
+            <h3 class = "pizza">Піца</h3>
+            <div class ="badge1">
+                <p class = "name">Pizza</p>
+                <p class = "name">KMA</p>
+            </div>
+        </header>
+
+        
+
+        <div id = "plp">
+            <div class="container">
+                <h1 class = "center">Усі піци</h1>
+                <input type="text" placeholder="5" class = "counter" readonly></input>
+            </div>
+        <!-- тут мы отображаем количество пиц на странице -->
+        <ul class = "list">
+            <button class = "fon">Усі</button>
+            <button class = "bezfon">М'ясні</button>
+            <button class = "bezfon">З ананасами</button>
+            <button class = "bezfon">З грибами</button>
+            <button class = "bezfon">З морепродуктами</button>
+            <button class = "bezfon">Вега</button>
+        </ul>
+        <ul class="product-list">
+            <li class="product-item">
+              <p class = "nova">Нова</p>
+              <!-- выпадающтй лейбл, сделано будет примерно как в прошлой работе, но он не будет выпадать, а будет фиксирован -->
+              <img class = "image" src="img\pizza_7.jpg" alt="Product 1">
+              <h2 class = "listing-element">Імпреза</h2>
+              <p class="pizza-type">М'ясна піца</p>
+              <p class="pizza-ingridients">Балик, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка</p>
+              <div class = "pizza-small">
+                <div class = "icon-info">
+                    <img src = "img\size-icon.svg"></img><span>30</span>
+                </div>
+                <div class = "icon-info">
+                    <img src = "img\weight.svg"></img><span>370</span>
+                </div>
+                <p class="pizza-price">99</p>
+                <span class = "pizza-currency">грн.</span>
+                <br/>
+                <button class="purchase-button">Купити</button>
+              </div>
+              <div class = "pizza-small">
+                <div class = "icon-info">
+                    <img src = "img\size-icon.svg"></img><span>40</span>        
+                </div>  
+                <div class = "icon-info">    
+                    <img src = "img\weight.svg"></img><span>660</span>     
+                </div>           
+                <p class="pizza-price">169</p>
+                <span class = "pizza-currency">грн.</span>  
+                <br/>          
+                <button class="purchase-button">Купити</button>
+              </div>
+            </li>           
+            <li class="product-item">
+                <p class = "popularna">Популярна</p>
+                <!-- выпадающтй лейбл, сделано будет примерно как в прошлой работе, но он не будет выпадать, а будет фиксирован -->
+                <img class = "image" src="img\pizza_2.jpg" alt="Product 2">
+                <h2>BBQ</h2>
+                <p class="pizza-type">М'ясна піца</p>
+                <p class="pizza-ingridients">Мисливські ковбаски, ковбаски папероні, шинка, сир домашній, шампіньйони, петрушка, оливки</p>
+                <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>30</span>
+                    </div>
+                    <div class = "icon-info">
+                        <img src = "img\weight.svg"></img><span>460</span>
+                    </div>
+                    <p class="pizza-price">139</p>
+                    <span class = "pizza-currency">грн.</span>
+                    <br/> 
+                    <button class="purchase-button">Купити</button>
+                  </div>
+                  <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>40</span>        
+                    </div>  
+                    <div class = "icon-info">    
+                        <img src = "img\weight.svg"></img><span>840</span>     
+                    </div>           
+                    <p class="pizza-price">199</p>
+                    <span class = "pizza-currency">грн.</span>      
+                    <br/>        
+                    <button class="purchase-button">Купити</button>
+                  </div>                                  
+            </li>
+            <li class="product-item">
+                <p></p>
+                <!-- выпадающтй лейбл, сделано будет примерно как в прошлой работе, но он не будет выпадать, а будет фиксирован -->
+                <img class = "image" src="img\pizza_1.jpg" alt="Product 3">
+                <h2>Міксовий поло</h2>
+                <p class="pizza-type">М'ясна піца</p>
+                <p class="pizza-ingridients">Шинка, куриця копчена, моцарелла, ананаси, кукурудза, петрушка, соус томатний</p>
+                <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>30</span>
+                    </div>
+                    <div class = "icon-info">
+                        <img src = "img\weight.svg"></img><span>430</span>
+                    </div>
+                    <p class="pizza-price">115</p>
+                    <span class = "pizza-currency">грн.</span>
+                    <br/>
+                    <button class="purchase-button">Купити</button>
+                  </div>
+                  <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>40</span>        
+                    </div>  
+                    <div class = "icon-info">    
+                        <img src = "img\weight.svg"></img><span>780</span>     
+                    </div>           
+                    <p class="pizza-price">179</p>
+                    <span class = "pizza-currency">грн.</span>     
+                    <br/>        
+                    <button class="purchase-button">Купити</button>
+                  </div>
+            </li>
+            <li class="product-item">
+                <p></p>
+                <!-- выпадающтй лейбл, сделано будет примерно как в прошлой работе, но он не будет выпадать, а будет фиксирован -->
+                <img class = "image" src="img\pizza_8.jpg" alt="Product 4">
+                <h2>Дольче Маре</h2>
+                <p class="pizza-type">Морська піца</p>
+                <p class="pizza-ingridients">Криветки тигрові, мідії, ікра червона, філе червоної риби, сир моцарелла, оливкова олія, вершки</p>
+                <div class = "pizza-large">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>40</span>
+                    </div>
+                    <div class = "icon-info">
+                        <img src = "img\weight.svg"></img><span>845</span>
+                    </div>
+                    <p class="pizza-price">399</p>
+                    <span class = "pizza-currency">грн.</span>
+                    <br/>
+                    <button class="purchase-button">Купити</button>
+                  </div>
+            </li>
+            <li class="product-item">
+                <p></p>
+                <!-- выпадающтй лейбл, сделано будет примерно как в прошлой работе, но он не будет выпадать, а будет фиксирован -->
+                <img class = "image" src="img\pizza_4.jpg" alt="Product 5">
+                <h2>Россо Густо</h2>
+                <p class="pizza-type">Морська піца</p>
+                <p class="pizza-ingridients">Ікра червона, лосось копчений, сир моцарелла, оливкова олія, вершки</p>
+                <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>30</span>
+                    </div>
+                    <div class = "icon-info">
+                        <img src = "img\weight.svg"></img><span>400</span>
+                    </div>
+                    <p class="pizza-price">189</p>
+                    <span class = "pizza-currency">грн.</span>
+                    <br/>
+                    <button class="purchase-button">Купити</button>
+                  </div>
+                  <div class = "pizza-small">
+                    <div class = "icon-info">
+                        <img src = "img\size-icon.svg"></img><span>40</span>        
+                    </div>  
+                    <div class = "icon-info">    
+                        <img src = "img\weight.svg"></img><span>700</span>     
+                    </div>           
+                    <p class="pizza-price">299</p>
+                    <span class = "pizza-currency">грн.</span>    
+                    <br/>           
+                    <button class="purchase-button">Купити</button>
+                  </div>
+            </li>
+            <!-- Add more <li> elements for other products -->
+          </ul> 
+        </div>
+
+        <footer>
+            <p class = "pfooter">Pizza.22 - практичний проект в межах курсу JavaScript в Києво-Могилянській академії</p>
+            <p>Доставка піци не здійснюється</p>
+            <div class ="badge2">
+                <p class = "name">ЦЬОГО</p>
+                <p class = "name">ТИЖНЯ</p>
+                <p class = "name1">НА ВСЕ</p>
+                <p class = "name1">-20%</p>
+            </div>
+        </footer>
+        </div>
+    </body>
